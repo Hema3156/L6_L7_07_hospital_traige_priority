@@ -237,11 +237,12 @@ Initially, all three functions failed when Hypothesis generated unexpected input
 
 The final test execution completed successfully, with **3 out of 3 tests passing**.
 
-### 11. Deliverables
+### Deliverables
 
 The following files are included in the Lab 7 submission:
 
-- `README.md` – Project documentation.
-- `processor.py` – Corrected application source code.
-- `test_processor.py` – Hypothesis-based automated tests.
-- `Lab 7 Screenshots/` – Screenshots showing the original execution, initial test failures, corrected execution, and final passing tests.
+1. `Lab_7_Fuzz_Testing_Screenshots.pdf` – PDF document containing screenshots of the original application output, initial failing Hypothesis tests, fixed application output, and final passing tests.
+
+2. `processor.py` – Fixed application Python script with improved input validation and exception handling.
+
+3. `test_processor.py` – Updated Hypothesis-based test code used to identify input validation bugs in all three functions.
